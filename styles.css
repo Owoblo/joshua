@@ -163,6 +163,17 @@ body {
     background-color: rgba(255,255,255,0.4);
     border-radius: 8px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    border-radius: 4px;
 }
 
 .project-desc {
@@ -293,4 +304,3 @@ body {
         font-size: 2rem;
     }
 }
-
